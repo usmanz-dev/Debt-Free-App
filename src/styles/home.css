@@ -1,0 +1,460 @@
+/* ===========================
+   HERO SECTION
+=========================== */
+.hero {
+  background: #e8e4f0;
+  padding: 70px 80px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+  min-height: 540px;
+}
+
+.hero-left h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 58px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.1;
+  margin-bottom: 28px;
+}
+
+.hero-dots {
+  color: #f5a623;
+}
+
+.hero-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.hero-check-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a2e;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  background: #4caf50;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.hero-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(26,26,46,0.3);
+}
+
+.hero-disclaimer {
+  font-size: 12px;
+  color: #666;
+  font-family: 'Epilogue', sans-serif;
+  line-height: 1.7;
+  max-width: 340px;
+}
+
+.hero-disclaimer a {
+  color: #666;
+  text-decoration: underline;
+}
+
+/* Hero Right - 2 column image grid */
+/* Hero Right */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-img-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===========================
+   HOW IT WORKS SECTION
+=========================== */
+.hiw-home-section {
+  background: #1a1a2e;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.hiw-home-section h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.hiw-home-subtitle {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-bottom: 60px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.hiw-home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.hiw-home-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hiw-home-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hiw-home-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hiw-home-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.hiw-home-card p {
+  font-size: 13.5px;
+  color: #aaaaaa;
+  line-height: 1.7;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.hiw-home-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hiw-home-btn:hover {
+  background: white;
+  color: #1a1a2e;
+}
+
+/* ===========================
+   REVIEWS SECTION
+=========================== */
+.home-reviews-section {
+  background: #f5a623;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.home-reviews-section h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.05;
+  margin-bottom: 8px;
+}
+
+.home-reviews-find {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.home-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.home-review-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.home-review-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.home-review-stars span {
+  color: #f5a623;
+  font-size: 20px;
+}
+
+.home-review-text {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.7;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.home-reviews-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-reviews-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   HELP SECTION
+=========================== */
+.home-help-section {
+  background: #e8e4f0;
+  padding: 80px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.home-help-left h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 18px;
+  line-height: 1.15;
+}
+
+.home-help-left p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.home-help-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.home-help-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 18px;
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.home-help-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+.home-help-cta {
+  background: #f5a623;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 40px;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-help-cta:hover {
+  background: #e8961a;
+  transform: translateY(-2px);
+}
+
+.home-help-right {
+  height: 100%;
+  overflow: hidden;
+}
+
+.home-help-right img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ===========================
+   BETTER LIFE SECTION
+=========================== */
+.better-life-section {
+  background: #f5a623;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.better-life-section h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 14px;
+}
+
+.better-life-section p {
+  font-size: 16px;
+  color: #1a1a2e;
+  margin-bottom: 40px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.better-life-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.better-life-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 1200px) {
+  .hero { padding: 60px 50px; }
+  .hero-left h1 { font-size: 48px; }
+  .hero-img-circle { width: 170px; height: 170px; }
+  .hero-img-circle.size-lg { width: 190px; height: 190px; }
+  .hero-img-circle.size-md { width: 155px; height: 155px; }
+  .hiw-home-section { padding: 70px 50px; }
+  .home-reviews-section { padding: 70px 50px; }
+  .home-help-section { padding: 70px 50px; gap: 40px; }
+}
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding: 50px 30px; }
+  .hero-left h1 { font-size: 40px; }
+  .hero-right { max-width: 360px; margin: 0 auto; }
+  .hero-img-circle { width: 150px; height: 150px; }
+  .hero-img-circle.size-lg { width: 165px; height: 165px; }
+  .hero-img-circle.size-md { width: 135px; height: 135px; }
+  .hiw-home-grid { grid-template-columns: repeat(2, 1fr); gap: 30px; }
+  .home-reviews-grid { grid-template-columns: repeat(2, 1fr); }
+  .home-help-section { grid-template-columns: 1fr; }
+  .home-help-right { display: none; }
+}
+
+@media (max-width: 600px) {
+  .hero { padding: 40px 20px; }
+  .hero-left h1 { font-size: 30px; }
+  .hiw-home-section { padding: 50px 20px; }
+  .hiw-home-section h2 { font-size: 30px; }
+  .hiw-home-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .home-reviews-section { padding: 50px 20px; }
+  .home-reviews-section h2 { font-size: 36px; }
+  .home-reviews-grid { grid-template-columns: 1fr; }
+  .home-help-section { padding: 50px 20px; }
+  .home-help-left h2 { font-size: 28px; }
+  .home-help-buttons { grid-template-columns: 1fr; }
+  .better-life-section { padding: 70px 20px; }
+  .better-life-section h2 { font-size: 32px; }
+}

@@ -1,0 +1,347 @@
+/* ===========================
+   SOLUTION PAGES
+=========================== */
+
+/* HERO */
+.sp-hero {
+  background: #e8e4f0;
+  padding: 60px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  min-height: 460px;
+}
+
+.sp-hero-left h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.sp-hero-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.sp-hero-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+
+.sp-check-icon {
+  width: 22px;
+  height: 22px;
+  background: #4caf50;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.sp-hero-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.sp-hero-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+.sp-hero-disclaimer {
+  font-size: 11px;
+  color: #666;
+  font-family: 'Epilogue', sans-serif;
+  line-height: 1.7;
+  max-width: 320px;
+}
+
+.sp-hero-disclaimer p {
+  margin-bottom: 6px;
+}
+
+/* Hero Right - Single Big Image */
+
+
+.sp-hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sp-hero-img-main {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+}
+
+/* WHAT IS SECTION */
+.sp-what-section {
+  background: #f5a623;
+  padding: 70px 80px;
+}
+
+.sp-what-section h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.sp-what-section p {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 15px;
+  color: #1a1a2e;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sp-qualify-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 32px auto 0;
+  width: fit-content;
+}
+
+.sp-qualify-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+/* ADVANTAGES & DISADVANTAGES */
+.sp-adv-section {
+  padding: 60px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  background: white;
+}
+
+.sp-adv-card {
+  border-radius: 20px;
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-adv-card.advantages { background: #e8e4f0; }
+.sp-adv-card.disadvantages { background: #f5a623; }
+
+.sp-adv-card h3 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+}
+
+.sp-adv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.sp-adv-list li {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
+  color: #1a1a2e;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.sp-adv-list li::before {
+  content: '•';
+  color: #1a1a2e;
+  font-size: 16px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.sp-adv-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+}
+
+.sp-adv-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+/* FAQ SECTION */
+.sp-faq-section {
+  padding: 60px 80px;
+  background: white;
+}
+
+.sp-faq-section h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sp-faq-list {
+  max-width: 860px;
+  margin: 0 auto 40px;
+}
+
+.sp-faq-item {
+  border-bottom: 1px solid #eee;
+}
+
+.sp-faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a2e;
+  text-align: left;
+  gap: 16px;
+  transition: color 0.2s;
+}
+
+.sp-faq-question:hover { color: #f5a623; }
+
+.sp-faq-icon {
+  font-size: 22px;
+  color: #1a1a2e;
+  flex-shrink: 0;
+  transition: transform 0.25s;
+}
+
+.sp-faq-icon.open { transform: rotate(45deg); }
+
+.sp-faq-answer {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+  padding: 0 0 20px 0;
+}
+
+.sp-faq-bottom-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.sp-faq-bottom-btn:hover {
+  background: #2d2d4e;
+  transform: translateY(-2px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .sp-hero { padding: 50px 40px; }
+  .sp-what-section { padding: 60px 40px; }
+  .sp-adv-section { padding: 50px 40px; }
+  .sp-faq-section { padding: 50px 40px; }
+}
+
+@media (max-width: 900px) {
+  .sp-hero { grid-template-columns: 1fr; padding: 40px 24px; }
+  .sp-hero-left h1 { font-size: 36px; }
+  .sp-hero-img-main { max-width: 100%; height: 300px; }
+  .sp-what-section { padding: 50px 24px; }
+  .sp-what-section h2 { font-size: 32px; }
+  .sp-adv-section { grid-template-columns: 1fr; padding: 40px 24px; }
+  .sp-faq-section { padding: 40px 24px; }
+  .sp-faq-section h2 { font-size: 28px; }
+}
+
+@media (max-width: 600px) {
+  .sp-hero { padding: 30px 16px; }
+  .sp-hero-left h1 { font-size: 28px; }
+  .sp-hero-img-main { height: 240px; }
+  .sp-what-section { padding: 40px 16px; }
+  .sp-what-section h2 { font-size: 26px; }
+  .sp-adv-section { padding: 30px 16px; }
+  .sp-adv-card { padding: 28px 22px; }
+  .sp-faq-section { padding: 30px 16px; }
+  .sp-faq-section h2 { font-size: 24px; }
+}

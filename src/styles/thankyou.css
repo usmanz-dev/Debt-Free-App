@@ -1,0 +1,315 @@
+/* ===========================
+   THANK YOU PAGE
+=========================== */
+.ty-page {
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* HERO - Dark card */
+.ty-hero {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ty-hero-card {
+  background: #1a1a2e;
+  border-radius: 24px;
+  padding: 60px 80px;
+  text-align: center;
+  max-width: 860px;
+  width: 100%;
+}
+
+.ty-hero-card h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.ty-hero-card h1 span {
+  color: #f5a623;
+}
+
+.ty-hero-card p {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 17px;
+  color: #cccccc;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ty-wa-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ty-wa-btn:hover {
+  background: white;
+  color: #1a1a2e;
+  transform: translateY(-2px);
+}
+
+/* 3 STEP PROCESS */
+.ty-steps-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ty-steps-card {
+  background: #e8e4f0;
+  border-radius: 24px;
+  padding: 60px 80px;
+  max-width: 860px;
+  width: 100%;
+  text-align: center;
+}
+
+.ty-steps-card h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 50px;
+}
+
+.ty-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.ty-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ty-step-num {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.ty-step-num.n1 { background: linear-gradient(135deg, #f5a623, #e8961a); }
+.ty-step-num.n2 { background: linear-gradient(135deg, #f5a623, #e8961a); }
+.ty-step-num.n3 { background: linear-gradient(135deg, #c0392b, #e74c3c); }
+
+.ty-step h3 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.ty-step p {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* SOLUTIONS SECTION */
+.ty-solutions-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ty-solutions-card {
+  background: #f5a623;
+  border-radius: 24px;
+  padding: 60px 60px;
+  max-width: 860px;
+  width: 100%;
+  text-align: center;
+}
+
+.ty-solutions-label {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.ty-solutions-card h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 40px;
+}
+
+.ty-solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.ty-solution-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ty-solution-card.featured {
+  background: #1a1a2e;
+}
+
+.ty-solution-label {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.ty-solution-card.featured .ty-solution-label {
+  color: #aaa;
+}
+
+.ty-best-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: white;
+  color: #1a1a2e;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  padding: 4px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+
+.ty-solution-name {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 16px;
+}
+
+.ty-solution-card.featured .ty-solution-name {
+  color: white;
+  border-bottom-color: rgba(255,255,255,0.2);
+}
+
+.ty-solution-features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.ty-solution-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 13px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.ty-solution-card.featured .ty-solution-feature {
+  color: #ccc;
+}
+
+.ty-feature-icon {
+  color: #27ae60;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.ty-solution-card.featured .ty-feature-icon {
+  color: #4caf50;
+}
+
+.ty-find-btn {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Epilogue', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  text-align: center;
+}
+
+.ty-solution-card.featured .ty-find-btn {
+  background: white;
+  color: #1a1a2e;
+}
+
+.ty-find-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .ty-hero-card { padding: 40px 30px; }
+  .ty-hero-card h1 { font-size: 30px; }
+  .ty-steps-card { padding: 40px 30px; }
+  .ty-steps-grid { grid-template-columns: 1fr; gap: 30px; }
+  .ty-solutions-card { padding: 40px 24px; }
+  .ty-solutions-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .ty-hero-card { padding: 36px 20px; }
+  .ty-hero-card h1 { font-size: 24px; }
+  .ty-hero-card p { font-size: 14px; }
+  .ty-steps-card { padding: 36px 20px; }
+  .ty-steps-card h2 { font-size: 26px; }
+  .ty-solutions-card { padding: 36px 16px; }
+  .ty-solutions-card h2 { font-size: 30px; }
+  .ty-solutions-grid { grid-template-columns: 1fr; }
+}
