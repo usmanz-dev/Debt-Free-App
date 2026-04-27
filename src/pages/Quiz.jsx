@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../styles/quiz.css'
 
-const WHATSAPP_ADMIN = '447700000000'
+const WHATSAPP_ADMIN = '03206351134'
 
 const COUNTRY_OPTIONS = [
   { label: 'England', value: 'England', flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', code: '44' },
